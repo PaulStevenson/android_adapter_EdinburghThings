@@ -7,7 +7,7 @@ package com.example.names_paul.edinburghthingstodo;
 public class Attraction {
 
     private String activity;
-    private int rating;
+    private Integer rating;
 
     public Attraction(String activity, int rating){
         this.activity = activity;
@@ -18,7 +18,7 @@ public class Attraction {
         return this.activity;
     }
 
-    public int getRating() {
+    public Integer getRating() {
         return this.rating;
     }
 }

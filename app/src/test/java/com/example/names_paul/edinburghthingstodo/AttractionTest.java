@@ -27,7 +27,7 @@ public class AttractionTest {
 
     @Test
     public void hasRating(){
-        assertEquals(7, attraction.getRating());
+        assertEquals((Integer) 7, attraction.getRating());
     }
 
 

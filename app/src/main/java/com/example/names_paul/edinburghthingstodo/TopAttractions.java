@@ -20,4 +20,8 @@ public class TopAttractions {
         list.add(new Attraction("BBQ at the Meadows", 8));
 
     }
+
+    public ArrayList<Attraction> getList() {
+        return this.list;
+    }
 }
