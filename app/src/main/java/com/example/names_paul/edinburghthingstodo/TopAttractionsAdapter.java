@@ -33,6 +33,8 @@ public class TopAttractionsAdapter extends ArrayAdapter<Attraction> {
         TextView rating = listItemView.findViewById(R.id.rating);
         rating.setText(currentAttraction.getRating().toString());
 
+        listItemView.setTag(currentAttraction);
+
         return listItemView;
 
     }
